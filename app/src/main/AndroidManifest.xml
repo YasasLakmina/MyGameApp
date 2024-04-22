@@ -13,6 +13,8 @@
         android:theme="@style/Theme.MyGameApp"
         tools:targetApi="31" >
         <activity
+            android:theme="@style/AppTheme_noActionBar"
+            android:screenOrientation="landscape"
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
